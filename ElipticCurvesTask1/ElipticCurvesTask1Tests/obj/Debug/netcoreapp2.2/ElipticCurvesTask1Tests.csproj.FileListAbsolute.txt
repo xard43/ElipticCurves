@@ -1,0 +1,17 @@
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\obj\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.csprojAssemblyReference.cache
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\obj\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.csproj.CoreCompileInputs.cache
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\obj\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.AssemblyInfoInputs.cache
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\obj\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.AssemblyInfo.cs
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.deps.json
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.runtimeconfig.json
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.runtimeconfig.dev.json
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.dll
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.pdb
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\ElipticCurvesTask1.dll
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\bin\Debug\netcoreapp2.2\ElipticCurvesTask1.pdb
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\obj\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.csproj.CopyComplete
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\obj\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.dll
+C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1Tests\obj\Debug\netcoreapp2.2\ElipticCurvesTask1Tests.pdb
