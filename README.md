@@ -1,1 +1,1 @@
-# ElipticVirves
+# ElipticCurves
