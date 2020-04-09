@@ -23,7 +23,7 @@ namespace ElipticCurvesTask1.Models
 		{
 			get
 			{
-				return valueB;
+				return valueB % modulo;
 			}
 		}
 		public BigInteger Modulo

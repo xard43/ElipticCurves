@@ -11,63 +11,65 @@ namespace ElipticCurvesTask1
 	public class PointBelongsToCurves : IPointBelongsToCurves
 	{
 		private ICurveEquation _curveEquation;
+		private BigInteger a;
+		private BigInteger b;
+		private BigInteger modulo;
+
 		public PointBelongsToCurves(ICurveEquation curveEquation)
 		{
 			_curveEquation = curveEquation;
+			a = curveEquation.A;
+			b = curveEquation.B;
+			modulo = curveEquation.Modulo;
 		}
-
-		public void Run()
+		
+		public Point GetPointCurvesContain()
 		{
-			ShowPointsInConsole();
-		}
-
-		private void ShowPointsInConsole()
-		{
-			Point pointP = GetPointCurvesContain();
-			Point pointQ = GetPointCurvesContain();
-			Console.WriteLine();
-			Console.WriteLine("Punkt P: (" + pointP.x + "," + pointP.y + ")");
-			Console.WriteLine();
-			Console.WriteLine("Punkt Q: (" + pointQ.x +", "+ pointQ.y+")");
-		}
-
-		private Point GetPointCurvesContain()
-		{
-			BigInteger x = GetSquareRest();
+			BigInteger x = GetSquareRestForPoints();
 			BigInteger y = GetValueY(x);
 
 			return new Point(x, y);
 		}
 
-		private BigInteger GetSquareRest()
+		private BigInteger GetSquareRestForPoints()
 		{
 			bool isSquareRest = false;
-			BigInteger a = _curveEquation.A;
-			BigInteger b = _curveEquation.B;
-			BigInteger modulo = _curveEquation.Modulo;
-			BigInteger value = 0; ;
-			BigInteger x ;
-			while(!isSquareRest)
+			BigInteger value; 
+			BigInteger x;
+			while (!isSquareRest)
 			{
 				x = GetRandomValue();
-				value = (BigInteger.Pow(x, 3) + a * x + b) % modulo;
+				value = GetYSquare(x);
 				isSquareRest = SquareRest.IsSquareRest(modulo, value);
 			}
-			return value;
+			return x;
 		}
 
+		private BigInteger GetYSquare(BigInteger x)
+		{
+			BigInteger value =  (BigInteger.Pow(x, 3) + a * x + b) % modulo;
+			return value;
+		}
 		private BigInteger GetValueY(BigInteger x)
 		{
-			BigInteger y = BigIntigerMath.SqrtModEuler(x, _curveEquation.Modulo);
+			BigInteger value = GetYSquare(x);
+			BigInteger y = BigIntigerMath.SqrtModEuler(value, modulo);
 			return y;
-			//BigInteger squareY = BigInteger.Pow(y, 2);
-			//BigInteger squareY2 = BigInteger.ModPow(y, 2, _curveEquation.Modulo);
-			//if (squareY2 != x)
-			//{
-			//	Console.WriteLine("Błąd: y*y= " + squareY.ToString() + "\n x = " + y.ToString());
-			//}
-			//else
 		}
+		
+		public bool IsPointContainToCurves(Point point)
+		{
+			BigInteger y2 = BigInteger.ModPow(point.y, 2, modulo);
+			BigInteger x3 = BigInteger.ModPow(point.x, 3, modulo);
+			BigInteger ax = (a * point.x) % modulo;
+			BigInteger result = (x3 + ax + _curveEquation.B) % modulo;
+			BigInteger result2 = result % modulo;
+			if (y2 == result)
+				return true;
+			else
+				return false;
+		}
+		
 		public BigInteger GetRandomValue()
 		{
 			Random rand = new Random();

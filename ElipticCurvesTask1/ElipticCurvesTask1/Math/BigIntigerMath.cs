@@ -33,5 +33,12 @@ namespace ElipticCurvesTask1.Models
 			else
 				throw new Exception("modulo % 4 have to be equal 3. Now this is equal " + value.ToString());
 		}
+
+		public static BigInteger InverseNumberMod(BigInteger value, BigInteger modulo)
+		{
+			BigInteger exponent = modulo-2;
+			BigInteger result = BigInteger.ModPow(value, exponent, modulo);
+			return result;
+		}
 	}
 }

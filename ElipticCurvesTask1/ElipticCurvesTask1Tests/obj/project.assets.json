@@ -5948,11 +5948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xard4\\source\\repos\\ElipticCurvesTask1\\ElipticCurvesTask1Tests\\ElipticCurvesTask1Tests.csproj",
+      "projectUniqueName": "C:\\Users\\xard4\\ElipticCurves\\ElipticCurvesTask1\\ElipticCurvesTask1Tests\\ElipticCurvesTask1Tests.csproj",
       "projectName": "ElipticCurvesTask1Tests",
-      "projectPath": "C:\\Users\\xard4\\source\\repos\\ElipticCurvesTask1\\ElipticCurvesTask1Tests\\ElipticCurvesTask1Tests.csproj",
+      "projectPath": "C:\\Users\\xard4\\ElipticCurves\\ElipticCurvesTask1\\ElipticCurvesTask1Tests\\ElipticCurvesTask1Tests.csproj",
       "packagesPath": "C:\\Users\\xard4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xard4\\source\\repos\\ElipticCurvesTask1\\ElipticCurvesTask1Tests\\obj\\",
+      "outputPath": "C:\\Users\\xard4\\ElipticCurves\\ElipticCurvesTask1\\ElipticCurvesTask1Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5971,8 +5971,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\xard4\\source\\repos\\ElipticCurvesTask1\\ElipticCurvesTask1\\ElipticCurvesTask1.csproj": {
-              "projectPath": "C:\\Users\\xard4\\source\\repos\\ElipticCurvesTask1\\ElipticCurvesTask1\\ElipticCurvesTask1.csproj"
+            "C:\\Users\\xard4\\ElipticCurves\\ElipticCurvesTask1\\ElipticCurvesTask1\\ElipticCurvesTask1.csproj": {
+              "projectPath": "C:\\Users\\xard4\\ElipticCurves\\ElipticCurvesTask1\\ElipticCurvesTask1\\ElipticCurvesTask1.csproj"
             }
           }
         }

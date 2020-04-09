@@ -14,7 +14,9 @@ namespace ElipticCurvesTask1.Container
 			builder.RegisterType<CurveEquation>().As<ICurveEquation>();
 			builder.RegisterType<BusinessLogic>().As<IBusinessLogic>();
 			builder.RegisterType<PointBelongsToCurves>().As<IPointBelongsToCurves>();
-
+			builder.RegisterType<PointsMath>().As<IPointsMath>();
+			builder.RegisterType<ShowInConsole>().As<IShowInConsole>();
+			
 			return builder.Build();
 		}
 	}

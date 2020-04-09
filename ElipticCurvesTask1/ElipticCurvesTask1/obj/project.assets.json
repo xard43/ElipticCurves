@@ -759,11 +759,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xard4\\source\\repos\\ElipticCurvesTask1\\ElipticCurvesTask1\\ElipticCurvesTask1.csproj",
+      "projectUniqueName": "C:\\Users\\xard4\\ElipticCurves\\ElipticCurvesTask1\\ElipticCurvesTask1\\ElipticCurvesTask1.csproj",
       "projectName": "ElipticCurvesTask1",
-      "projectPath": "C:\\Users\\xard4\\source\\repos\\ElipticCurvesTask1\\ElipticCurvesTask1\\ElipticCurvesTask1.csproj",
+      "projectPath": "C:\\Users\\xard4\\ElipticCurves\\ElipticCurvesTask1\\ElipticCurvesTask1\\ElipticCurvesTask1.csproj",
       "packagesPath": "C:\\Users\\xard4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xard4\\source\\repos\\ElipticCurvesTask1\\ElipticCurvesTask1\\obj\\",
+      "outputPath": "C:\\Users\\xard4\\ElipticCurves\\ElipticCurvesTask1\\ElipticCurvesTask1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

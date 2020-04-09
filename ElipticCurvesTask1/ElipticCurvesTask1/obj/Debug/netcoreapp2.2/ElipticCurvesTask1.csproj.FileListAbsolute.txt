@@ -9,3 +9,14 @@ C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netc
 C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.AssemblyInfo.cs
 C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.dll
 C:\Users\xard4\source\repos\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.pdb
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.csprojAssemblyReference.cache
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.csproj.CoreCompileInputs.cache
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.AssemblyInfoInputs.cache
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.AssemblyInfo.cs
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.dll
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\obj\Debug\netcoreapp2.2\ElipticCurvesTask1.pdb
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\bin\Debug\netcoreapp2.2\ElipticCurvesTask1.deps.json
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\bin\Debug\netcoreapp2.2\ElipticCurvesTask1.runtimeconfig.json
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\bin\Debug\netcoreapp2.2\ElipticCurvesTask1.runtimeconfig.dev.json
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\bin\Debug\netcoreapp2.2\ElipticCurvesTask1.dll
+C:\Users\xard4\ElipticCurves\ElipticCurvesTask1\ElipticCurvesTask1\bin\Debug\netcoreapp2.2\ElipticCurvesTask1.pdb
