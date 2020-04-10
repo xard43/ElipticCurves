@@ -55,7 +55,7 @@ namespace ElipticCurvesTask1
 			BigInteger x1 = pointP.x;
 			BigInteger y1 = pointP.y;
 			BigInteger x2 = pointQ.x;
-			BigInteger y2 = pointP.y;
+			BigInteger y2 = pointQ.y;
 
 			BigInteger lambda = ((y2 - y1) * BigIntigerMath.InverseNumberMod(x2 - x1, modulo)) % modulo;
 			BigInteger x3 = (BigInteger.ModPow(lambda, 2, modulo) - x1 - x2) % modulo;
@@ -68,7 +68,7 @@ namespace ElipticCurvesTask1
 			BigInteger x1 = pointP.x;
 			BigInteger y1 = pointP.y;
 			BigInteger x2 = pointQ.x;
-			BigInteger y2 = pointP.y;
+			BigInteger y2 = pointQ.y;
 
 			BigInteger lambda = ((3 * BigInteger.ModPow(x1, 2, modulo) + a) * BigIntigerMath.InverseNumberMod(2 * y1, modulo)) % modulo;
 			BigInteger x3 = (BigInteger.ModPow(lambda, 2, modulo) - 2 * x1) % modulo;
