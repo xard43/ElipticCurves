@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Autofac;
+using ElipticCurvesTask1.EncryptDecrypt;
 using ElipticCurvesTask1.Models;
 
 namespace ElipticCurvesTask1.Container
@@ -16,6 +17,9 @@ namespace ElipticCurvesTask1.Container
 			builder.RegisterType<PointBelongsToCurves>().As<IPointBelongsToCurves>();
 			builder.RegisterType<PointsMath>().As<IPointsMath>();
 			builder.RegisterType<ShowInConsole>().As<IShowInConsole>();
+			builder.RegisterType<Encrypt>().As<IEncrypt>();
+			builder.RegisterType<Decrypt>().As<IDecrypt>();
+			builder.RegisterType<EDShowInConsole>().As<IEDShowInConsole>();
 			
 			return builder.Build();
 		}
