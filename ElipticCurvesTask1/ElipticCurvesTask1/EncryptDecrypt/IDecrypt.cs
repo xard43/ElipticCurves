@@ -6,6 +6,6 @@ namespace ElipticCurvesTask1
 {
 	public interface IDecrypt
 	{
-		string DescryptMessage(List<Point> encryptMessage, BigInteger ni);
+		string DescryptMessage(Point encryptMessagePoint, BigInteger ni);
 	}
 }

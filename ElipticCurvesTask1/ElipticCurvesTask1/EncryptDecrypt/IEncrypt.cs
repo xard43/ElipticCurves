@@ -6,7 +6,7 @@ namespace ElipticCurvesTask1
 {
 	public interface IEncrypt
 	{
-		List<Point> EncryptMessage(string massage, BigInteger ni);
+		Point EncryptMessage(string massage, BigInteger ni);
 		BigInteger GetRandomNi();
 	}
 }

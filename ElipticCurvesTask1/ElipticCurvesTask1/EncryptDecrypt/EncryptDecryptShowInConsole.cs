@@ -5,12 +5,12 @@ using System.Text;
 
 namespace ElipticCurvesTask1.EncryptDecrypt
 {
-	public class EDShowInConsole : IEDShowInConsole
+	public class EncryptDecryptShowInConsole : IEDShowInConsole
 	{
 		IEncrypt _encrypt;
 		IDecrypt _decrypt;
 
-		public EDShowInConsole(IEncrypt encrypt, IDecrypt decrypt)
+		public EncryptDecryptShowInConsole(IEncrypt encrypt, IDecrypt decrypt)
 		{
 			_encrypt = encrypt;
 			_decrypt = decrypt;
@@ -18,19 +18,19 @@ namespace ElipticCurvesTask1.EncryptDecrypt
 
 		public void Run()
 		{
-			
-			string message = "Marek";
+			Console.WriteLine();
+			Console.WriteLine("Zadanie 2");
+
+
+
+			string message = "Szyfowanie zadanie drugie";
 			BigInteger ni = _encrypt.GetRandomNi();
-			
+			Console.WriteLine("Wiadomośc do zaszyfrowania: " + message);
+			Console.WriteLine();
 			var encryptedMessage = _encrypt.EncryptMessage(message, ni);
+			Console.WriteLine("Po Szyfrowaniu: ");
+			Console.WriteLine("Punkt: P( " + encryptedMessage.x +"," + encryptedMessage.y + " )");
 
-			Console.WriteLine("KODOWANIE START: ");
-			foreach(var point in encryptedMessage)
-			{
-				Console.WriteLine("P( " + point.x.ToString() + "," + point.y.ToString() + ")");
-			}
-
-			Console.WriteLine("KODOWANIE KONIEC: ");
 
 
 			var decryptedMessage = _decrypt.DescryptMessage(encryptedMessage, ni);

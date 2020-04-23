@@ -19,7 +19,7 @@ namespace ElipticCurvesTask1.Container
 			builder.RegisterType<ShowInConsole>().As<IShowInConsole>();
 			builder.RegisterType<Encrypt>().As<IEncrypt>();
 			builder.RegisterType<Decrypt>().As<IDecrypt>();
-			builder.RegisterType<EDShowInConsole>().As<IEDShowInConsole>();
+			builder.RegisterType<EncryptDecryptShowInConsole>().As<IEDShowInConsole>();
 			
 			return builder.Build();
 		}
